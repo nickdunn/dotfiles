@@ -1,0 +1,19 @@
+# Short Git aliases
+alias g='git'
+alias gst='git status'
+alias gc='git commit'
+alias gco='git checkout'
+alias gl='git pull'
+alias gpom="git pull origin master"
+alias gp='git push'
+alias gd='git diff'
+alias gb='git branch'
+alias gba='git branch -a'
+alias del='git branch -d'
+
+alias b='bundle'
+alias be='b exec'
+alias r='be rake'
+alias v='be vagrant'
+alias u='be unicorn -c config/unicorn.rb'
+alias c='be rails c'
